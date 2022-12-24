@@ -15,10 +15,10 @@ Whi='\e[0;37m';     BWhi='\e[1;37m';    UWhi='\e[4;37m';    IWhi='\e[0;97m';    
 
 seleccionar ()
 {
-  echo -e $BYel "
+ clear;echo -e $BYel "
 
 
-clear
+
 
                       !!!!disclaimer!!!! $R"
 echo -e $BRed "
