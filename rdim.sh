@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#recolector de informacion manual version 2.0
+
 
     
 Bla='\e[0;30m';     BBla='\e[1;30m';    UBla='\e[4;30m';    IBla='\e[0;90m';    BIBla='\e[1;90m';   On_Bla='\e[40m';    On_IBla='\e[0;100m';
@@ -35,89 +37,21 @@ echo -e $BRed "
 	echo "|                                             |"
 	echo "|      registro de informacion manual         |"
 	echo "|      para hacer doxing a un objetivo        |"
-  echo "|     o recolectar informacion necesaria      |"
-  echo "|     ya sea para un pentesting o bandalismo  |"
+  echo "|       recolectar informacion necesaria      |"
+  echo "|      para un pentesting empresarial         |"
   echo "|            creado por ghostnet              |"
   echo "|_____________________________________________|"
   echo ""
     echo -e $BPur " $R"
   echo "Selecciona una opción:"
-  echo "(1) (save info x dox personal)"
+  echo "(1) (read registro rdim)"
   echo "(2) (save info x dox empresarial)"
 echo -e $BGre " $R"
   echo -n "eliga (1) o (2): "
   
   read opcion
   case $opcion in
-  1) clear;echo -e $BRed " ____________________ $R"
-echo -e $BRed "| DOXING PERSONAL   | $R"
-echo -e $BRed "|___________________| $R"
-echo -e $BWhi " $R"
-echo "llene los campos con la informacion que recolecto de su objetivo"
-echo "informacion que haz recolectado del objetivo:"
-echo "datos de la victima" >> data_objetivo.txt
-echo "" >> data_objetivo.txt
-echo -e $BYel " $R"
-
-echo "nombre:" >> data_objetivo.txt
-echo "nombre:"
-read name
-echo $name >> data_objetivo.txt
-
-echo "apellido:" >> data_objetivo.txt
-echo "apellido:"
-read ap
-echo $ap >> data_objetivo.txt
-
-echo "numero de telefono:" >> data_objetivo.txt
-echo "numero de telefono:"
-read tel
-echo $tel >> data_objetivo.txt
- 
-echo "compania telefonica" >> data_objetivo.txt
-echo "compania telefonica"
-read ct
-echo $ct >> data_objetivo.txt
-
-echo "correo la victima:" >> data_objetivo.txt
-echo "correo de la victima:"
-read correox 
-echo $correox >> data_objetivo.txt
-
-echo "direccion de la victima:" >> data_objetivo.txt
-echo "direccion de la victima:"
-read dirx 
-echo $dirx >> data_objetivo.txt
-
-echo "url de redes sociales de la victima:" >> data_objetivo.txt
-
-echo "url linkedin de la victima:" >> data_objetivo.txt
-echo "url linkedin de la victima:" 
-read rlx 
-echo $rlx >> data_objetivo.txt
-
-echo "url facebook de la victima:" >> data_objetivo.txt
-echo "url facebook de la victima:"
-read rfx 
-echo $rfx >> data_objetivo.txt
-
-echo "url instagram de la victima:" >> data_objetivo.txt
-echo "url instagram de la victima:"
-read rix 
-echo $rix >> data_objetivo.txt
-
-echo "url twitter de la victima:" >> data_objetivo.txt
-echo "url twitter de la victima:"
-read rtx 
-echo $rtx >> data_objetivo.txt
-
-clear
-echo -e  $BRed "se ha guardado su archivo como -->$R" $BGre " data_objetivo.txt $R"
-echo -e $BWhi " presione enter para finalizar $R"
-read done
-clear
-echo "finalizado"
-
+  1) clear; echo "System in repair. Please try again later..."
 ;;
   2) clear;echo -e $BRed "___________________"
 echo -e $BRed "|doxing a empresas| $R"
