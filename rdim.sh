@@ -18,7 +18,7 @@ seleccionar ()
   echo -e $BYel "
 
 
-
+clear
 
                       !!!!disclaimer!!!! $R"
 echo -e $BRed "
@@ -51,7 +51,7 @@ echo -e $BGre " $R"
   
   read opcion
   case $opcion in
-  1) clear; echo "System in repair. Please try again later..."
+  1) clear; echo "System in repair. Please try again later...";clear;bash rdim.sh
 ;;
   2) clear;echo -e $BRed "___________________"
 echo -e $BRed "|doxing a empresas| $R"
