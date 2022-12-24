@@ -129,6 +129,7 @@ echo -e $BWhi " presione enter para finalizar $R"
 read done
 clear
 echo "finalizado"
+bash rdim.sh
 ;;
   *) echo "Opción no válida";;
   esac
