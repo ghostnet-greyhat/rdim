@@ -133,6 +133,7 @@ bash rdim.sh
 ;;
   *) echo "Opción no válida";;
   esac
+  bash rdim.sh
 }
  
 seleccionar
