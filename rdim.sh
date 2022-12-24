@@ -15,23 +15,7 @@ Whi='\e[0;37m';     BWhi='\e[1;37m';    UWhi='\e[4;37m';    IWhi='\e[0;97m';    
 
 seleccionar ()
 {
- clear;echo -e $BYel "
-
-
-
-
-                      !!!!disclaimer!!!! $R"
-echo -e $BRed "
-
-       !!!ADVERTENCIA ESTA HERRAMIENTA FUE CREADA PARA HACKING ETICO!!!"
-   echo -e $BWhi "
-       
-       el uso que tu le des a esta herramienta 
-        te hace responsable a ti unicamente
-         de la consecuencia de tus actos. $R"
-         echo -e $BGre "        
-                    ENTER PARA CONTINUAR $R"
-   read input
+ 
    clear
 	echo -e $BYel  "______________________________________________"
 	echo "|                                             |"
